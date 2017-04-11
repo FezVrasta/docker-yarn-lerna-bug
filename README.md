@@ -22,6 +22,12 @@ The command '/bin/sh -c yarn bootstrap' returned a non-zero code: 1
 error Command failed with exit code 1.
 ```
 
+Inside the container, in the `packages/foo` dir, you'll find a `yarn-error.log`:
+
+```
+Error: https://registry.yarnpkg.com/babel-cli/-/babel-cli-6.24.0.tgz: ENOENT: no such file or directory, open '/root/.cache/yarn/v1/npm-babel-cli-6.24.0-a05ffd210dca0c288a26d5319c5ac8669a265ad0/.yarn-tarball.tgz'
+```
+
 If you remove the `@scope` from `packages/foo/package.json` everything works fine.
 
 
