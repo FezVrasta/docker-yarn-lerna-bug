@@ -30,6 +30,8 @@ Error: https://registry.yarnpkg.com/babel-cli/-/babel-cli-6.24.0.tgz: ENOENT: no
 
 If you remove the `@scope` from `packages/foo/package.json` everything works fine.
 
+If you edit `package.json` changing `bootstrap` to `lerna bootstrap --concurrency=1` it works fine.
+
 
 If you run:
 
