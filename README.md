@@ -23,3 +23,12 @@ error Command failed with exit code 1.
 ```
 
 If you remove the `@scope` from `packages/foo/package.json` everything works fine.
+
+
+If you run:
+
+```
+$(yarn bin)/lerna bootstrap
+```
+
+from the repository root directory, everything works fine (at least, on macOS).
