@@ -1,8 +1,9 @@
 Make sure to have Docker installed, then:
 
 ```
-git clone <this repo>
-cd <this repo folder>
+cd /tmp
+git clone git@github.com:FezVrasta/docker-yarn-lerna-bug.git
+cd docker-yarn-lerna-bug
 yarn
 yarn start
 ```
